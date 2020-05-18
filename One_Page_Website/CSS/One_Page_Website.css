@@ -1,0 +1,25 @@
+.font-family {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+p {
+    font-size: 14px;
+}
+
+input {
+    width: 100%
+}
+
+input {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+input[type=text] {
+        border: 2px solid red;
+        border-radius: 4px;
+}
+
