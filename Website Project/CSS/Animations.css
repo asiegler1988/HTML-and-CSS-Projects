@@ -30,6 +30,11 @@ MENU SECTION ANIMATION
     transition-timing-function: ease-in-out;
 }
 
+.menu li:hover {
+    color: #f00;
+    background-color: rgba(100,65,0.3);
+}
+
 /*-------------------------------------------
 GALLERY SECTION ANIMATION
 ---------------------------------------------*/

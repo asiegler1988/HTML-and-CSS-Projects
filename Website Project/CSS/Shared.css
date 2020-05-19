@@ -1,5 +1,5 @@
 /*----------------------------------------
-    Author: Aurora Siegler
+    Author: Daniel Christie
 ------------------------------------------
     GENERIC STYLES
 ------------------------------------------*/
@@ -20,7 +20,7 @@ body {
     background-color: #fff;
 }
 
-footer
+footer,
 nav {
     display: block;
 }
@@ -28,6 +28,7 @@ nav {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
+
 h1 {
     line-height: 50px;
     font-weight: 900;
@@ -73,7 +74,7 @@ p {
 }
 
 .text-center{
-    text-align: center
+    text-align: center;
 }
 
 .heading-padding {
@@ -242,7 +243,7 @@ CONTACT STYLES
     word-spacing: .3pt;
 }
 
-.reservation {
+.reservation p {
     color: #13161B;
     width: 50%;
     margin: 0 auto;
@@ -255,7 +256,7 @@ CONTACT STYLES
     color: #8D8e8f;
     padding: 12 px 12 px;
     width: 70%;
-    border: 1px solid #8d8d8d;
+    border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
@@ -263,7 +264,7 @@ CONTACT STYLES
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input[type="text"]{
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -281,7 +282,7 @@ CONTACT STYLES
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input[type="text"]:hover{
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100,65,0,.8);
 }
 
@@ -307,7 +308,7 @@ CONTACT STYLES
     text-decoration: underline;
 }
 
-.submit input[type="submit"]{
+.submit input[type="submit"] {
     color: rgb(225,225,225);
     cursor: pointer;
     border: none;
@@ -325,7 +326,7 @@ CONTACT STYLES
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
-.submit input[type="submit"]:hover{
+.submit input[type="submit"]:hover {
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
@@ -341,5 +342,3 @@ FOOTER STYLES
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
-
-
