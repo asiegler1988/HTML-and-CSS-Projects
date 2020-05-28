@@ -2,13 +2,12 @@ var Family = "The Bills", Dad = "Cliff", Mom = "Summer", Daughter = "Sue", Son =
 document.getElementById
 
 function My_First_Function () {
-    var str = "Cliff Bills' favorite color is blue!";
-    var result = str.fontcolor("blue");
-    document.getElementById("Blue_Text").innerHTML = result;
+        var x = document.getElementById("button");
+        x.style.color = "red";
 }
 
 function myFunction () {
     var sentence = "I am learning";
-    sentence += "a lot from this book!";
-    document.getElementById("Concatenate").innerHTML=sentence;
+    sentence += " much from The Tech Academy!";
+    document.getElementById("Concatenate2").innerHTML=sentence;
 }
