@@ -35,7 +35,7 @@ function my_Function_1 () {
 }
     
 function my_Function_2 () {
-    document.getElementById("Test_2").innerHTML = isNan('These are words in a string');
+    document.getElementById("Test_2").innerHTML = isNaN('These are words in a string');
 }
 
 function my_Function_3 () {
