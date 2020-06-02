@@ -34,3 +34,11 @@ function Waitstaff_Functions () {
     document.getElementById("Restaurant").innerHTML = "In this picture, the waitstaff is " +
         Waitstaff_Function[1] + ".";
 }
+
+function constant_function () {
+    const Building_Materials = {type:"bank", walls: "glass", color:"pink"};
+    Building_Materials.color = "blue";
+    Building_Materials.price = "$4,000";
+    document.getElementById("Constant").innerHTML = "The cost of the " + 
+        Building_Materials.type + " was " + Building_Materials.price
+}

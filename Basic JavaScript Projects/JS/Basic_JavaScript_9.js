@@ -1,23 +1,9 @@
-function coundown () {
-    var seconds = document.getElementById("seconds").value;
-
-    function tick () {
-        seconds = seconds - 1;
-        timer.innerHTML = seconds;
-        setTimeout(tick, 1000);
-    if(seconds == -1) {
-        alert("Time's up!");
-    }
-        }
-    tick ();   
-}
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
 // -Next/Previous Controls-
 function plusSlides(n) {
-    showSlides(slideIndex += n)
+    showSlides(slideIndex += n);
 } 
 
 // -Thumbnail Image Controls-
@@ -38,5 +24,5 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace("active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndexIndex-1].className += " active";
+    dots[slideIndex-1].className += " active";
 }
