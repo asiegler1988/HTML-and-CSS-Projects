@@ -42,3 +42,17 @@ function constant_function () {
     document.getElementById("Constant").innerHTML = "The cost of the " + 
         Building_Materials.type + " was " + Building_Materials.price
 }
+
+var X = 50;
+document.write(X);
+{
+    let X = 30;
+    document.write("<br>" + X);
+}
+document.write("<br>" + X);
+
+function RetFunction () {
+    return Math.PI;
+}
+
+document.getElementById("ReturnFunction").innerHTML = RetFunction();
