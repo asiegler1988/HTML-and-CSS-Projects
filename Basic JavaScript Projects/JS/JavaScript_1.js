@@ -27,3 +27,21 @@ function Hello_World_Function () {
     var A = document.getElementsByClassName("Click2");
     A[0].innerHTML = "This text has changed!";
 }
+
+function myCanvas() {
+    var c = document.getElementById("CanvasFunction");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("SpaceForce");
+    ctx.drawImage(img,10,10);
+}
+
+
+var c = document.getElementById("aCanvas");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createLinearGradient(0, 0, 170, 0);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(20, 20, 150, 100);
